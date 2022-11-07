@@ -4,7 +4,10 @@ Django, Celery, Redis
 
 A simple project based on [tutorial from realpython.com](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 
-
+- Added Celery autoreload on changes aced on Django Command:
+```shell
+python manage.py restartall
+```
 ---
 To start your app:
 
@@ -26,12 +29,14 @@ $ source venv/bin/activate
 
 ---
 Install Celery:
+```shell
 (venv) $ python -m pip install celery
-
+```
 Install Redis:
+```shell
 brew install redis \ sudo apt install redis
 python -m pip install redis
-
+```
 
 
 
