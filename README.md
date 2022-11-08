@@ -4,7 +4,10 @@ Django, Celery, Redis
 
 A simple project based on [tutorial from realpython.com](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 
-- Added Celery autoreload on changes aced on Django Command:
+Extra features:
+
+- Added Celery autoreload on changes based on Django Command:
+
 ```shell
 python manage.py restartall
 ```
